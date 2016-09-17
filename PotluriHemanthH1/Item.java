@@ -12,11 +12,23 @@ public class Item {
   private String name;
   private int weight;
   
-    //Constructor
-    public Item(String name, int weight){
-        this.name = name;
-        this.weight = weight;
+  //Constructor
+  public Item(String name, int weight){
+    this.name = name;
+    this.weight = weight;
     }
+  
+  // Get weight method
+  public int getWeight() {
+    return weight;
+    }
+
+  // Get name method
+  public String getName() {
+    return name;
+    }
+    
+    
 
 
 }
