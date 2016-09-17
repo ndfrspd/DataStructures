@@ -15,4 +15,11 @@ public class Armor extends Item {
     super(name, weight);
     this.defense = defense;
     }
+  
+  // Get defense method
+  public int getDefense(){
+    return defense;
+    }
+  
+  
 }
