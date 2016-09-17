@@ -9,7 +9,11 @@
  */
 
 public class Armor extends Item {
-
+  
+  private int defense;
+  private String name;
+  private int weight;
+  
   //Constructor
   public Armor(int defense, String name, int weight){
     super(name, weight);
@@ -21,5 +25,12 @@ public class Armor extends Item {
     return defense;
     }
   
-  
+  // Override Item.examine
+  public void examine(){
+    // print name and weight
+    super.examine();
+    
+    //print defense
+    System.out.println("Defense:" + defense);
+  }
 }
