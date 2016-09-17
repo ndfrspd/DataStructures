@@ -10,5 +10,9 @@
 
 public class Armor extends Item {
 
-
+  //Constructor
+  public Armor(int defense, String name, int weight){
+    super(name, weight);
+    this.defense = defense;
+    }
 }
