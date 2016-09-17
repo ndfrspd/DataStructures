@@ -11,7 +11,7 @@ public class Item {
   
   private String name;
   private int weight;
-  
+   
   //Constructor
   public Item(String name, int weight){
     this.name = name;
@@ -28,7 +28,8 @@ public class Item {
     return name;
     }
     
-    
-
-
+  // prints the name and weight of the object
+  public void examine(){
+    System.out.println("Name: " + this.name + "\nWeight: " + this.weight);
+    }
 }
