@@ -22,6 +22,13 @@ public class Test {
         System.out.println(testFood.getQuantity());
         System.out.println('\n');
     
+        // Armor object creator and tester
+        Armor testArmor = new Armor(45, "Armor", 62);
+        testArmor.examine();
+        System.out.println(testArmor.getName());
+        System.out.println(testArmor.getWeight());
+        System.out.println(testArmor.getDefense());
+        System.out.println('\n');
     
     }
 }
