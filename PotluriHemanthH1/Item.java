@@ -7,6 +7,7 @@
  * 
  * Item: superclass to Armor, Food, and Weapon
  */
+
 public class Item {
   
   private String name;

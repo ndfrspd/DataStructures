@@ -8,7 +8,6 @@
  * This class tests the Item, Food, Armor, and Weapon classes.
  */
 
-
 public class Test {
 
     public static void main(String[] args){
