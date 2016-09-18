@@ -5,7 +5,7 @@
  * 
  * 9/17/2016
  * 
- * Item: superclass to Armor, Food, and Weapon
+ * Item: superclass for Armor, Food, and Weapon
  */
 
 public class Item {
