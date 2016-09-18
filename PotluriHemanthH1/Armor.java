@@ -25,6 +25,7 @@ public class Armor extends Item {
   
   // Override Item.examine
   public void examine(){
+   
     // print name and weight
     super.examine();
     

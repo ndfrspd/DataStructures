@@ -18,18 +18,22 @@ public class Weapon extends Item {
     this.damage = damage;
     }
 
+  // Get damage method
   public int getDamage() {
     return damage;
     }
 
+  // Set damage mehtod
   public void setDamage(int damage) {
     this.damage = damage;
     }
-
    
   @Override   
   public void examine() {    
+    
+    // Print name and weight
     super.examine();    
+    
     // Print damage    
     System.out.println("Damage: " + this.damage);
     }
