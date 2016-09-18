@@ -11,8 +11,6 @@
 public class Armor extends Item {
   
   private int defense;
-  private String name;
-  private int weight;
   
   //Constructor
   public Armor(int defense, String name, int weight){
