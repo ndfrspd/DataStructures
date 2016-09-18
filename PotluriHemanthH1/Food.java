@@ -3,7 +3,7 @@
  * 
  * ICSI 213
  * 
- * 9/17/2016
+ * 9/14/2016
  * 
  * Food Class: extends Item
  */
@@ -19,25 +19,25 @@ public class Food extends Item {
     this.nutrition = nutrition;
     this.quantity = quantity;
     }
-  
-  // Get nutrition method
-  public int getNutrition() {
-    return nutrition;
-    }
-    
+
   // Set Nutrition method
   public void setNutrition(int nutrition) {
     this.nutrition = nutrition;
     }
 
-  // Get quantity method
-  public int getQuantity() {
-    return quantity;
+  // Get nutrition method
+  public int getNutrition() {
+    return nutrition;
     }
 
   // Set Quantity method
   public void setQuantity(int quantity) {
     this.quantity = quantity;
+    }
+  
+  // Get quantity method
+  public int getQuantity() {
+    return quantity;
     }
     
   @Override

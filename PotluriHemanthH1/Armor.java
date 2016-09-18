@@ -3,7 +3,7 @@
  * 
  * ICSI 213
  * 
- * 9/17/2016
+ * 9/14/2016
  * 
  * Armor Class: extends Item
  */
@@ -17,18 +17,18 @@ public class Armor extends Item {
     super(name, weight);
     this.defense = defense;
     }
+   
+  // Set defense method
+  public void setDefense(int defense) {
+    this.defense = defense;
+    } 
   
   // Get defense method
   public int getDefense(){
     return defense;
     }
   
-  // Set defense method
-  public void setDefense(int defense) {
-    this.defense = defense;
-    }
-  
-  // Override Item.examine
+  @Override
   public void examine(){
    
     // print name and weight

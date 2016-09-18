@@ -3,7 +3,7 @@
  * 
  * ICSI 213
  * 
- * 9/17/2016
+ * 9/14/2016
  * 
  * Item: superclass for Armor, Food, and Weapon
  */
@@ -18,25 +18,25 @@ public class Item {
     this.name = name;
     this.weight = weight;
     }
+ 
+  // Set weight mehtod
+  public void setWeight(int weight) {
+    this.weight = weight;
+    }
   
   // Get weight method
   public int getWeight() {
     return weight;
     }
-    
-  // Set weight mehtod
-  public void setWeight(int weight) {
-    this.weight = weight;
-    }
 
-  // Get name method
-  public String getName() {
-    return name;
-    }
-  
   // Set name mehtod
   public void setName(String name) {
     this.name = name;
+    }
+  
+  // Get name method
+  public String getName() {
+    return name;
     }
     
   // prints the name and weight of the object
