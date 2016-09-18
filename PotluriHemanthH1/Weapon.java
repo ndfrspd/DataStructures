@@ -18,21 +18,6 @@ public class Weapon extends Item {
     this.damage = damage;
     }
   
-  // Get damage method
-  public int getDamage() {
-    return damage;
-    }
   
-  // Set damage method
-  public void setDamage(int damage) {
-    this.damage = damage;
-    }
-  
-  @Override
-  public void examine() {
-    super.examine();
 
-    // Print damage
-    System.out.println("Damage: " + this.damage);
-    }
 }
