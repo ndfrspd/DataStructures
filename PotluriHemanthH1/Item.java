@@ -23,10 +23,20 @@ public class Item {
   public int getWeight() {
     return weight;
     }
+    
+  // Set weight mehtod
+  public void setWeight(int weight) {
+    this.weight = weight;
+    }
 
   // Get name method
   public String getName() {
     return name;
+    }
+  
+  // Set name mehtod
+  public void setName(String name) {
+    this.name = name;
     }
     
   // prints the name and weight of the object

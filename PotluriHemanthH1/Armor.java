@@ -23,6 +23,11 @@ public class Armor extends Item {
     return defense;
     }
   
+  // Set defense method
+  public void setDefense(int defense) {
+    this.defense = defense;
+    }
+  
   // Override Item.examine
   public void examine(){
    
