@@ -39,4 +39,15 @@ public class Food extends Item {
   public void setQuantity(int quantity) {
     this.quantity = quantity;
     }
+    
+  @Override
+  public void examine() {
+    
+    // print name and weight
+    super.examine();
+  
+    //print quantity and nutrition    
+    System.out.println("Quantity: " + this.quantity + "\nNutrition: " + this.nutrition);
+
+    }
 }
