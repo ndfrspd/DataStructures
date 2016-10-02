@@ -18,6 +18,13 @@ public class Babylonian {
         System.out.println("Enter the precision you want (Ex. 0.001)");
         k = keyboard.nextDouble();
         
+        // Initial guess
+        double guess = n/2;
+
+        // Additional variables needed to add precision to the calculation
+        double difference = Double.MAX_VALUE;
+        double lastGuess = guess;
+        
         while (difference >= k)
         {
             r = n / guess;
