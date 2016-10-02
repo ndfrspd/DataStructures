@@ -18,5 +18,14 @@ public class Babylonian {
         System.out.println("Enter the precision you want (Ex. 0.001)");
         k = keyboard.nextDouble();
         
+        while (difference >= k)
+        {
+            r = n / guess;
+            guess = (guess + r) / 2;
+            difference = ((lastGuess - guess)/lastGuess);
+            lastGuess = guess;
+            System.out.println(guess);
+        }
+        
     }
 }
