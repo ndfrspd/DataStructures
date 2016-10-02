@@ -8,3 +8,12 @@ public class Babylonian {
         int n;
         double k;
         double r = 0;
+        
+        //Recieves the user inputed number
+        Scanner keyboard = new Scanner(System.in);
+        System.out.println("Welcome to the Babylonian Square root method, please enter a positive integer:");
+        n = keyboard.nextInt();
+
+        
+    }
+}
