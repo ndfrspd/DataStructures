@@ -34,5 +34,9 @@ public class Babylonian {
             System.out.println(guess);
         }
         
+        // Prints out the final answer
+        System.out.println("");
+        System.out.printf("The square root of " + n + " is: %.2f", r);
+        
     }
 }
