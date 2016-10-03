@@ -13,6 +13,8 @@ public class Babylonian {
         Scanner keyboard = new Scanner(System.in);
         System.out.println("Welcome to the Babylonian Square root method, please enter a positive integer:");
         n = keyboard.nextInt();
+        System.out.println("You entered " + n);
+        System.out.println("");
 
         // Recieves the user inputed precsion for the calculation
         System.out.println("Enter the precision you want (Ex. 0.001)");
@@ -25,6 +27,7 @@ public class Babylonian {
         double difference = Double.MAX_VALUE;
         double lastGuess = guess;
         
+        // Performs the calcualtion
         while (difference >= k)
         {
             r = n / guess;
