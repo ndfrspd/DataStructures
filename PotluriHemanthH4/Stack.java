@@ -11,7 +11,7 @@ int top = -1;
    }
    else{
      this.top++;
-     stackArray[this.top] = a;
+     stackrray[this.top] = a;
  }
  }
  void pop()
