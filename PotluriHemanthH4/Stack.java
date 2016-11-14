@@ -40,7 +40,7 @@ int top = -1;
    }
  }
    else
-     System.out.println("Can't print, empty");
+     System.out.println("Can't print, empt");
  }
  
 
