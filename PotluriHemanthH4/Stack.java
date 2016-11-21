@@ -18,7 +18,7 @@ int top = -1;
  {
    if(this.top < 0)
    {
-     System.out.println("Can't Pop, list empty");
+     System.out.println("Can't Pop, list empt");
    }
    else{
      System.out.println(stackArray[this.top]);
